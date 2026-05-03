@@ -363,6 +363,19 @@ h3 {
   border: 1px solid var(--border);
 }
 
+.section-dark .feature-list div {
+  background: rgba(255, 255, 255, 0.96);
+  border-color: rgba(255, 255, 255, 0.9);
+}
+
+.section-dark .feature-list h3 {
+  color: var(--blue-night);
+}
+
+.section-dark .feature-list p {
+  color: #3c4c5f;
+}
+
 .cta-section {
   background: linear-gradient(135deg, var(--green), var(--blue-night));
 }
